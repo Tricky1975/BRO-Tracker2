@@ -2,7 +2,7 @@
 *.EXE
 *.TPU
 !ANIVGA.TPU
+!COMPRESS.TPU
 
 License.MKL.gini
-MKL_Backup/1.JCR
-MKL_Backup/2.JCR
+MKL_Backup
