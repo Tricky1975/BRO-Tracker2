@@ -1,7 +1,7 @@
 # No binary files
 *.EXE
 *.TPU
-
+!ANIVGA.TPU
 
 License.MKL.gini
 MKL_Backup/1.JCR
