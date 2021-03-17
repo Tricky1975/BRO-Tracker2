@@ -775,7 +775,7 @@ Playing:=True;
 For AK:=1 to 9 Do Ci[Ak]:=Ak;
 For Ak:=1 to 9 Do EquaBar(Ak,Ci[Ak]);
 Color(14,2);
-GotoXY(41,9); Write('? Speed:             ?');
+GotoXY(41,9); Write('º Speed:             º');
 BBBB:=BBB;
 For Ak:=1 to $F5 Do Reg(Ak,$00);
 BBBB:=BLT;
@@ -824,7 +824,7 @@ For Sd:=1 to 9 Do
     If (Tr[Sd,Pt,Pp]>$00) And (Tr[Sd,Pt,Pp]<$D0) Then Eq[Sd]:=EqB[Sd];
     If (Tr[Sd,Pt,Pp]=$D0) Then Eq[Sd]:=0;
     {Tmp:=Copy(SS(Eq[Sd],'?')+'                 ',1,16);}
-    Tmp:=Copy('??????????????????',1,Eq[Sd])+'                            ';
+    Tmp:=Copy('ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ',1,Eq[Sd])+'                            ';
     GotoXY(63,Sd+1);
     Color(9,0); Write(Hex(Ci[Sd]));
     Case Box[Sd] Of
